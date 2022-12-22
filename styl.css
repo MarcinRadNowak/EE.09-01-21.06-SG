@@ -1,0 +1,71 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #005b4f;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+
+main {
+    background-color: #e1e2e1;
+    height: 400px;
+    padding: 20px;
+    overflow: scroll;
+    clear: both;
+}
+
+#foto {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+#opis {
+    width: 80%;
+    float: left;
+    display: inline-block;
+}
+
+#linia {
+    width: 100%;
+    clear: both;
+}
+
+#lewy {
+    background-color: #005b4f;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 50%;
+    float: left;
+    
+}
+
+#prawy {
+    background-color: #005b4f;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 50%;
+    float: right;
+    
+}
+
+img {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: #00897b;
+}
+
+a {
+    color: white;
+}
+

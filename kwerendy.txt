@@ -1,0 +1,7 @@
+SELECT imie, nazwisko, opis, zdjecie from osoby WHERE hobby_id=1 OR hobby_id=2 OR hobby_id=6;
+
+SELECT osoby.id, osoby.nazwisko, hobby.nazwa FROM osoby, hobby WHERE osoby.Hobby_id=hobby.id; 
+
+SELECT id, zdjecie FROM osoby WHERE imie LIKE "Monika" LIMIT 5; 
+
+CREATE TABLE wpisy (id INT (10) PRIMARY KEY NOT NULL AUTO_INCREMENT, wpis text (100), uzytkownik_id INT (10) NOT NULL);
